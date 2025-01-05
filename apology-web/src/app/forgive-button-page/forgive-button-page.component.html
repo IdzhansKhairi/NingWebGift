@@ -1,0 +1,15 @@
+<div class="row vh-100 d-flex justify-content-center align-items-center">
+    <div class="col-md-12">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="button-container text-center">
+                <img class="cat-image" src="assets/cat-sorry.jpg" alt="Cat Sorry Image">
+                <h1>Will you forgive me?</h1>
+                <button *ngIf="clickCount < 5" (click)="moveButton()" [ngStyle]="{'top': top, 'left': left}"  class="forgive-button">
+                  Forgive Me
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+  

@@ -1,0 +1,31 @@
+.button-container {
+    position: relative;
+    height: 300px;  /* Adjust based on your design */
+    width: 100%;
+}
+
+// .forgive-button {
+//     position: absolute;
+//     padding: 10px 20px;
+//     font-size: 16px;
+//     top: 50%;  /* Initially center vertically (in the container) */
+//     left: 50%;  /* Initially center horizontally (in the container) */
+//     transform: translate(-50%, -50%);  /* This centers the button correctly */
+//     transition: top 0.3s ease, left 0.3s ease;  /* Smooth movement */
+// }
+
+.forgive-button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: top 0.3s ease, left 0.3s ease;  /* Smooth movement */
+} 
+
+.center-content {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.cat-image {
+    height: 150px;
+}

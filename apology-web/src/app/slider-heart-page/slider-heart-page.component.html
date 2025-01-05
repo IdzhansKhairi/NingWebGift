@@ -1,0 +1,5 @@
+<div class="container">
+    <div [style.fontSize.px]="heartSize" class="heart">❤️</div>
+    <input type="range" min="0" max="500" (input)="updateHeartSize($event)" (change)="startGradualReset($event)" [disabled]="isSliderDisabled"/>
+</div>
+  
